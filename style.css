@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    background-image: url(./images/orangeBTC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 100vh;
+    position: relative;
+    z-index: -10;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
