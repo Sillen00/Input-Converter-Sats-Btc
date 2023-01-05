@@ -15,12 +15,13 @@
 
     <h1>Bitcoin Converter</h1>
 
-    <form class="form" action="">
+    <form class="converter-form" action="#">
         <label for="sats">Satoshis</label>
-        <input type="text" name="sats" id="sats">
-        
+        <input type="number" name="sats" id="sats" min="0">
+
         <label for="btc">Bitcoin</label>
-        <input type="text" name="btc" id="btc">
+        <input type="number" name="btc" id="btc" max="21_000_000">
+
     </form>
 </body>
 </html>
