@@ -24,8 +24,10 @@ h1 {
     word-break: break-all;
     word-spacing: 100rem;
     letter-spacing: 5px;
-
-    background: -webkit-linear-gradient(#1ba0d7, #002d3f);
+    -webkit-text-stroke: 0.4px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+    
+    background: -webkit-linear-gradient(#09eab4, #93fcec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
