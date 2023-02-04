@@ -1,5 +1,31 @@
-@media (width > 768px){
-    .label-sats{
-        background-color: red;
-    }
+@media (width > 768px) {
+  input {
+    width: 500px;
+  }
+
+  .label-sats {
+    font-size: 1.25rem;
+    bottom: 71px;
+    right: 215px;
+  }
+
+  .label-btc {
+    font-size: 1.25rem;
+    bottom: 71px;
+    right: 215px;
+  }
+
+  .input-sats:focus + .label-sats {
+    bottom: 71px;
+    right: 200px;
+    color: orange;
+    font-size: 20px;
+  }
+
+  .input-btc:focus + .label-btc {
+    bottom: 71px;
+    right: 200px;
+    color: orange;
+    font-size: 20px;
+  }
 }
