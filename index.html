@@ -7,6 +7,7 @@
     <title>Converter</title>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css">
 
     <script src="./main.js"></script>
 </head>
@@ -16,11 +17,11 @@
     <h1>Bitcoin <span>Converter</span></h1>
 
     <form class="converter-form" action="#">
+        <input class="input-sats" type="number" name="sats" id="sats" min="0">
         <label class="label-sats" for="sats">Satoshis</label>
-        <input type="number" name="sats" id="sats" min="0">
 
+        <input class="input-btc" type="number" name="btc" id="btc" max="21_000_000">
         <label class="label-btc" for="btc">Bitcoin</label>
-        <input type="number" name="btc" id="btc" max="21_000_000">
 
     </form>
 </body>

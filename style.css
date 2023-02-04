@@ -26,7 +26,6 @@ h1 {
     letter-spacing: 5px;
     -webkit-text-stroke: 0.4px;
     text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
-    
     background: -webkit-linear-gradient(#09eab4, #93fcec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,7 +33,7 @@ h1 {
 
 .overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -52,14 +51,16 @@ h1 {
 
 .label-sats{
     position: relative;
-    right: 100px;
+    right: 90px;
+    bottom: 60px;
     transition: all 0.2s;
     color: white;
 }
 
 .label-btc{
     position: relative;
-    right: 100px;
+    right: 90px;
+    bottom: 60px;
     transition: all 0.2s;
     color: white;
 }
@@ -79,13 +80,20 @@ input:focus{
     border-color: orange;
 }
 
-/*Fixa detta problemet! Ge inputsen varsin class?*/
 
-/* input:focus+.label-btc, input:focus+.label-sats{
-    top: -10px;
+.input-btc:focus+.label-btc{
+    right: 90px;
+    bottom: 70px;
     color: orange;
     font-size: 20px;
-} */
+}
+
+.input-sats:focus+.label-sats{
+    right: 90px;
+    bottom: 70px;
+    color: orange;
+    font-size: 20px;
+}
 
 
 
