@@ -1,6 +1,26 @@
 @media (width > 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
   input {
     width: 500px;
+  }
+
+  .input-sats {
+    background-image: url(../images/S-btc.png);
+    background-repeat: no-repeat;
+    background-size: 20px 30px;
+    background-position: center left 5px;
+    padding-left: 30px;
+  }
+
+  .input-btc {
+    background-image: url(../images/B-btc.png);
+    background-repeat: no-repeat;
+    background-size: 20px 30px;
+    background-position: center left 5px;
+    padding-left: 30px;
   }
 
   .label-sats {
