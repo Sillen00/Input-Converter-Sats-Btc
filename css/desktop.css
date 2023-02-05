@@ -1,6 +1,12 @@
 @media (width > 1024px){
     h1{
         font-size: 5rem;
+        padding: 4rem;
     }
+
+    .converter-form{
+        padding: 0;
+    }
+
 
 }

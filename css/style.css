@@ -104,26 +104,32 @@ input:focus {
   width: 78px;
   height: 72px;
   transition: all 0.3s;
+  z-index: 1000;
+}
+#btc-coin.active {
+  /* display: none; */
+  /* transform:rotateY(180deg); */
+  bottom: 20px;
 }
 
 .btc-convertions {
   position: relative;
   display: none;
-}
-
-#btc-coin.active {
-  /* display: none; */
-  /* transform:rotateY(180deg); */
-  bottom: 0;
+  opacity: 0;
+  font-size: 0.8rem;
 }
 .btc-convertions.active {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   color: white;
+
+  justify-content: center;
+  opacity: 1;
+  transition: all 1s;
 }
 .btc-convertions.active span {
-  color: goldenrod;
+  color: orange;
 }
 
 /* .btc-convertions-sats h4 {

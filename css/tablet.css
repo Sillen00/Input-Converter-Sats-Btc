@@ -1,6 +1,11 @@
 @media (width > 768px) {
   h1 {
     font-size: 3.5rem;
+    padding: 6rem;
+  }
+
+  .converter-form{
+    padding: 0;
   }
 
   input {
@@ -48,4 +53,19 @@
     color: orange;
     font-size: 20px;
   }
+
+  #btc-coin{
+    width: 178px; 
+    height: 170px;
+    bottom: 260px;
+  }
+
+  .btc-convertions{
+    font-size: 1.25rem;
+  }
+
+
+
+
+
 }
